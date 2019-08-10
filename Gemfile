@@ -13,8 +13,11 @@ gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
+group :development do 
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
+end
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
