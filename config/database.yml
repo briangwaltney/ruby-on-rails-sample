@@ -22,6 +22,6 @@ test:
 
 production:
   <<: *default
-  database: sudoku_app_production
-  username: sudoku_app
-  password: <%= ENV['SUDOKU_APP_DATABASE_PASSWORD'] %>
+  database: sample_app_app_production
+  username: sample_app_app
+  password: <%= ENV['SAMPLE_APP_APP_DATABASE_PASSWORD'] %>

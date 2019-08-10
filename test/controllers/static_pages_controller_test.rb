@@ -4,7 +4,7 @@ require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   def setup
-    @base_url = 'Ruby Sudoku Solver'
+    @base_url = 'Sample App'
   end
   test 'root should get home' do
     get root_url
